@@ -1,0 +1,23 @@
+2017-10-24 00:20:44.2323|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (9ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Products] AS [p])
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END
+2017-10-24 00:20:45.4040|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:55863/  
+2017-10-24 00:20:45.6351|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 286.1987ms 404 text/plain
+2017-10-24 00:20:45.7193|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:55863/favicon.ico  
+2017-10-24 00:20:45.7472|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 30.3861ms 404 text/plain
+2017-10-24 00:20:52.4478|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:55863/api/product  
+2017-10-24 00:20:52.5302|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.0.0-rtm-26452 initialized 'MyContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2017-10-24 00:20:52.5699|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+IF EXISTS (SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE') SELECT 1 ELSE SELECT 0
+2017-10-24 00:20:52.6176|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method CoreApi.Controllers.ProductController.GetProducts (CoreApi) with arguments ((null)) - ModelState is Valid
+2017-10-24 00:20:52.6786|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [x].[Id], [x].[Description], [x].[Name], [x].[Price]
+FROM [Products] AS [x]
+ORDER BY [x].[Name]
+2017-10-24 00:20:52.7862|INFO|Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+2017-10-24 00:20:52.9203|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action CoreApi.Controllers.ProductController.GetProducts (CoreApi) in 369.4045ms
+2017-10-24 00:20:52.9369|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 500.5327ms 200 application/json; charset=utf-8

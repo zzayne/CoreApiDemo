@@ -1,0 +1,38 @@
+2017-10-21 01:08:05.1869|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:55863/  
+2017-10-21 01:08:08.1308|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 3276.4815ms 404 text/plain
+2017-10-21 01:08:08.4297|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:55863/favicon.ico  
+2017-10-21 01:08:08.4716|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 41.9594ms 404 text/plain
+2017-10-21 01:12:35.4653|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:55863/  
+2017-10-21 01:12:35.7759|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 370.9852ms 404 text/plain
+2017-10-21 01:12:35.8329|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:55863/favicon.ico  
+2017-10-21 01:12:35.8649|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 35.1892ms 404 text/plain
+2017-10-21 01:13:23.5123|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:55863/  
+2017-10-21 01:13:23.5239|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 27.9497ms 404 text/plain
+2017-10-21 01:13:25.2569|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:55863/  
+2017-10-21 01:13:25.2569|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 7.7467ms 404 text/plain
+2017-10-21 01:13:25.8287|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:55863/  
+2017-10-21 01:13:25.8390|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 27.9564ms 404 text/plain
+2017-10-21 01:13:32.1671|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:55863/  
+2017-10-21 01:13:32.1671|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 27.0952ms 404 text/plain
+2017-10-21 01:13:32.2001|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:55863/favicon.ico  
+2017-10-21 01:13:32.2137|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 10.8629ms 404 text/plain
+2017-10-21 01:13:34.6094|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:55863/  
+2017-10-21 01:13:34.6191|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 26.1688ms 404 text/plain
+2017-10-21 01:13:51.3811|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:55863/  
+2017-10-21 01:13:51.6565|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 327.7766ms 404 text/plain
+2017-10-21 01:13:51.6980|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:55863/favicon.ico  
+2017-10-21 01:13:51.7254|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 10.7776ms 404 text/plain
+2017-10-21 01:14:06.0632|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:55863/api/product/1  
+2017-10-21 01:14:13.0761|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method CoreApi.Controllers.ProductController.GetProduct (CoreApi) with arguments (1) - ModelState is Valid
+2017-10-21 01:14:13.1247|INFO|Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+2017-10-21 01:14:13.2654|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action CoreApi.Controllers.ProductController.GetProduct (CoreApi) in 7086.8616ms
+2017-10-21 01:14:13.2872|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 7231.5769ms 200 application/json; charset=utf-8
+2017-10-21 01:37:39.1604|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:55863/  
+2017-10-21 01:37:39.4364|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 315.0082ms 404 text/plain
+2017-10-21 01:37:39.4941|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:55863/favicon.ico  
+2017-10-21 01:37:39.5240|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 31.1604ms 404 text/plain
+2017-10-21 01:37:42.7991|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:55863/api/product  
+2017-10-21 01:37:42.8919|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method CoreApi.Controllers.ProductController.GetProducts (CoreApi) with arguments ((null)) - ModelState is Valid
+2017-10-21 01:37:42.9271|INFO|Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+2017-10-21 01:37:43.0369|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action CoreApi.Controllers.ProductController.GetProducts (CoreApi) in 147.7267ms
+2017-10-21 01:37:43.0369|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 266.9732ms 200 application/json; charset=utf-8

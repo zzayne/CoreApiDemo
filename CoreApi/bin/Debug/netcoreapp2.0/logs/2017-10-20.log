@@ -1,0 +1,10 @@
+2017-10-20 17:57:21.2641|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:55863/  
+2017-10-20 17:57:21.6281|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 396.3564ms 404 text/plain
+2017-10-20 17:57:21.6671|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:55863/favicon.ico  
+2017-10-20 17:57:21.6767|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 6.5978ms 404 text/plain
+2017-10-20 17:57:28.6272|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:55863/api/Product/5 application/json 
+2017-10-20 17:57:28.7279|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method CoreApi.Controllers.ProductController.GetProduct (CoreApi) with arguments (5) - ModelState is Valid
+2017-10-20 17:57:28.7366|INFO|CoreApi.Controllers.ProductController|Id为5的产品没有被找到..
+2017-10-20 17:57:28.7366|INFO|Microsoft.AspNetCore.Mvc.StatusCodeResult|Executing HttpStatusCodeResult, setting HTTP status code 404
+2017-10-20 17:57:28.7595|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action CoreApi.Controllers.ProductController.GetProduct (CoreApi) in 50.3438ms
+2017-10-20 17:57:28.7687|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 139.5601ms 404 text/plain
